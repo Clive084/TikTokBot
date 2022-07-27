@@ -10,10 +10,6 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 PATH="C:/Users/clive/Downloads/chromedriver.exe"
 r=list()
-user="orang3_"
-xchecking=[]
-#passs=input('Password:')
-#(hint) usual password but with a capital at the start
 driver=webdriver.Chrome(PATH)
 driver.get("https://quackr.io/temporary-phone-number-generator")
 while True:
